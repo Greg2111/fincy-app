@@ -1,0 +1,166 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+body {
+    width: 100%;
+    background-color: #dbd6f3;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 1000;
+}
+
+li {
+    
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+button{
+    background-color: #273752;
+    text-decoration: none;
+    border-radius: 3px;
+    border: none;
+    color: white;
+}
+
+.containner {
+    margin-top: 3%;
+    background-color: white;
+    padding-top: 2%;
+    border-radius: 15px;
+    /* width: 90%; */
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.container-elm{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+/* @media (max-width: 700px)
+    
+} */
+
+/*Header*/
+
+    /* menu */
+
+    .navbar{
+        font-size: 20px;
+    }
+
+    .men {
+        display: flex;
+        list-style: none;
+    }
+
+    .elm-m{
+        padding-left: 25px;
+    }
+
+    /* fin menu */
+    /* bouton */
+    
+    .container-button{
+        padding: 10px 35px;
+    }
+
+    /* fin bouton */
+    /* logo */
+    .container-logo{
+        display: flex;
+    }
+    
+    .personal{
+        padding-top: 10px;
+    }
+
+    /* fin logo */
+
+/* fin header */
+
+/* MAIN */
+    /* Titre */
+    /* .title p{
+        font-weight: bold;
+        font-size: 75px;
+    } */
+
+    .title{
+        font-weight: bold;
+        font-size: 75px;
+        padding-top: 5%;
+    }
+    /* fin titre */
+
+    /* rectangle flottant */
+
+
+    .floating-square{
+        /* border: 2px solid black; */
+        display: flex;
+        justify-content: space-between;
+        width: 55%;
+        border-radius: 7px;
+        padding: 10px 35px;
+        box-shadow: -50px 30px 75px #aaa;
+        font-size: 20px;
+    }
+
+    .amount{
+        color: #c8c8c8;
+    }
+
+    .container-button_b{
+        padding: 20px 30px;
+    }
+    /* fin square */
+    /* below square */
+
+    .purpl{
+        display: flex;
+        background-color: #f6f4ff;
+    }
+
+    .options {
+        padding-top: 7%;
+        padding-bottom: 2%;
+        display: flex;
+        width: 50%;
+        justify-content: space-between;
+    }
+    .titres{
+        color: #273752;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+
+    .circles{
+        background-color: #8983aa;
+        width: 25%;
+        border-radius: 35px;
+        margin-bottom: 25px;
+    }
+    .txt{
+        color: #dbd6f3;
+    }
+
+    .lil-btn{
+        color: #8983aa;
+    }
+    /* image */
+
+    .image{
+        width: 50%;
+        height: 80%;
+        
+    }
+    .image img {
+        /* height: 600px; */
+        width: 65%;
+        position: absolute;
+        top: 100px;
+    }
